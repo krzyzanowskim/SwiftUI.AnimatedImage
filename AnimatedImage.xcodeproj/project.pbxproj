@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7561272D266794AE0085F3BF /* AnimatedImageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561272C266794AE0085F3BF /* AnimatedImageApp.swift */; };
-		7561272F266794AE0085F3BF /* AnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561272E266794AE0085F3BF /* AnimatedImage.swift */; };
 		75612731266794AF0085F3BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75612730266794AF0085F3BF /* Assets.xcassets */; };
 		75612734266794AF0085F3BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75612733266794AF0085F3BF /* Preview Assets.xcassets */; };
+		75B14C4E26B4D1CC005757F9 /* AnimatedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B14C4D26B4D1CC005757F9 /* AnimatedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75612729266794AE0085F3BF /* AnimatedImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7561272C266794AE0085F3BF /* AnimatedImageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageApp.swift; sourceTree = "<group>"; };
-		7561272E266794AE0085F3BF /* AnimatedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImage.swift; sourceTree = "<group>"; };
 		75612730266794AF0085F3BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75612733266794AF0085F3BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		75612735266794AF0085F3BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B14C4D26B4D1CC005757F9 /* AnimatedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		7561272B266794AE0085F3BF /* AnimatedImage */ = {
 			isa = PBXGroup;
 			children = (
+				75B14C4C26B4D1CC005757F9 /* AnimatedImage */,
 				7561272C266794AE0085F3BF /* AnimatedImageApp.swift */,
-				7561272E266794AE0085F3BF /* AnimatedImage.swift */,
 				75612730266794AF0085F3BF /* Assets.xcassets */,
 				75612735266794AF0085F3BF /* Info.plist */,
 				75612732266794AF0085F3BF /* Preview Content */,
@@ -68,6 +68,15 @@
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
+		};
+		75B14C4C26B4D1CC005757F9 /* AnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				75B14C4D26B4D1CC005757F9 /* AnimatedImage.swift */,
+			);
+			name = AnimatedImage;
+			path = Sources/AnimatedImage;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -138,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7561272F266794AE0085F3BF /* AnimatedImage.swift in Sources */,
+				75B14C4E26B4D1CC005757F9 /* AnimatedImage.swift in Sources */,
 				7561272D266794AE0085F3BF /* AnimatedImageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
